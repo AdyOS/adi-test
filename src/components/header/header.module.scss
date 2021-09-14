@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+}
+
+.navLinks {
+  display: flex;
+  text-align: right;
+}
+
+.searchBar {
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.searchCol {
+  justify-content: flex-end;
+  display: flex;
+  align-self: flex-end;
+}

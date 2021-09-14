@@ -1,0 +1,66 @@
+.slidePane {
+  height: calc(100vh - 64px);
+  display: flex;
+
+  .actions {
+    display: flex;
+    flex: 0 0 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftPane,
+  .rightPane {
+    padding: 15px;
+  }
+}
+
+.small {
+  & .leftPane {
+    display: flex;
+    flex: 0 0 5%;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    border: 1px solid black;
+  }
+
+  & .rightPane {
+    flex: 1;
+    border: 1px solid black;
+  }
+}
+
+.medium {
+  & .leftPane {
+    flex: 0 0 25%;
+    border: 1px solid black;
+  }
+
+  & .rightPane {
+    flex: 1;
+    border: 1px solid black;
+  }
+}
+
+.large {
+  & .leftPane {
+    display: flex;
+    flex: 1;
+    border: 1px solid black;
+  }
+
+  & .rightPane {
+    display: flex;
+    flex: 0 0 5%;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    border: 1px solid black;
+  }
+}
